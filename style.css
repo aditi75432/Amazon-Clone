@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Rubik+Microbe&display=swap');
+html,body {
+    margin: 0%;
+    font-family: 'montserrat',sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(236, 234, 234);
+}
+
+/* NAVIGATION-BAR UPPER CSS STARTS */
+
+
+.navbar-upper {
+    width: 100vw;
+    background-color: #0f1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+}
+
+.logo:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 120px;
+    height: 80%;
+}
+
+.location {
+    color: white;
+}
+
+.location:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.location-name {
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+
+.update-location {
+    font-size: 0.9 rem;
+    font-weight: bold;
+}
+
+.search-bar {
+    justify-content: space-evenly;
+    background-color: bisque;
+    display: flex;
+    margin-left: 1.5rem;
+    width: 580px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-bar:hover {
+    border: 2px solid rgb(255, 149, 0);
+}
+
+.select-type {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align:left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.input-search {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: #fab458;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+.language {
+    margin-left: 2.5rem;
+}
+
+.language-list {
+    background-color: black;
+    color: whitesmoke;
+    height: 2rem;
+    border: none;
+}
+
+.language:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.sign {
+    font-size: 0.7rem;
+}
+
+.Accounts {
+    font-size: 0.9 rem;
+    font-weight: bold;
+}
+
+.orders:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.return-items {
+    font-size: 0.7rem;
+}
+
+.order-items {
+    font-size: 0.9 rem;
+    font-weight: bold;
+}
+
+.shopping-cart:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.cart {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-text {
+    font-weight: bold;
+}
+
+/* NAVIGATION_UPPER CSS COMPLETE */
+
+
+
+/* LOWER HEADER STARTS */
+.lower-header {
+    display: flex;
+    background-color: #222f;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1.2rem 0rem;
+
+}
+
+.menu-button {
+    margin-left: 0.7rem;
+
+}
+
+.lower-header-text span {
+    margin-left: 1rem;
+}
+
+.common {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.common:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.download-app {
+    font-size: 0.9rem;
+    font-family: 700;
+    position: absolute;
+    right: 10px;
+}
+
+/* LOWER HEADER ENDS */
+
+
+/* BANNER STARTS */
+.auto-carousel {
+    position: relative;
+    /* animation: slide 20s infinite; */
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    display: flex;
+    height: 40vh;
+    transition: all 1s ease;
+    margin-top: -0.5rem;
+}
+
+@keyframes slide {
+    0% {
+        left: 0%;
+    }
+
+    5% {
+        left: -100%;
+    }
+
+    20% {
+        left: -100%;
+    }
+
+    25% {
+        left: -200%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    45% {
+        left: -300%;
+    }
+
+    60% {
+        left: -300%;
+    }
+
+    65% {
+        left: -400%;
+    }
+
+    80% {
+        left: -400%;
+    }
+
+    85% {
+        left: -500%;
+    }
+
+    100% {
+        left: -500%;
+    }
+}
+
+.slide {
+    height: 40vh;
+}
+
+.slide img {
+    height: 40vh;
+    width: 100vw;
+}
+
+ol {
+    list-style: none;
+}
+
+/* BANNER ENDS */
+
+
+/*Multi img starts*/
+.multi-image-sec {
+    display: flex;
+}
+
+.multi-sec {
+    width: 24vw;
+    background-color: white;
+    margin: 0.5rem;
+}
+
+.multi-head {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.single-multi {
+    width: 9vw;
+    display: inline-block;
+    margin: 1.15rem;
+}
+
+.single-multi img {
+    width: 9vw;
+}
+
+/* Multi img ends */
+
+/* carousel starts */
+.carousel {
+    width: 100vw;
+    background-color: white;
+
+}
+
+.carousel-head {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.left-btn {
+    height: 20vh;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+}
+
+
+.right-btn {
+    height: 20vh;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.right-btn i,
+.left-btn i {
+    color: #0f1111;
+    font-size: 30px;
+    position: absolute;
+    top: 35%;
+}
+
+.slide-carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.slide-img {
+    height: 20vh;
+    margin-right: 2rem;
+}
+
+/* carousel ends */
+
+
+/* Single-image-section-starts */
+.single-img-sec {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.single-img-box {
+    width: 23vw;
+    margin: 0.5rem;
+    background-color: #f3f3f3;
+}
+
+.single-img {
+    width: 21vw;
+    margin: 0.5rem;
+
+}
+
+.single-img-head {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+.See-more{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: rgb(3, 3, 135);
+}
+
+/* Single-image-section-ends */
+
+/* footer starts */
+.footer{
+    width: 100vw;
+    background-color:#0f1111 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    
+}
+
+.info-footer{
+    width: 15vw;
+    margin-left:5rem;
+    text-align: left;
+}
+.footer-head{
+    font-size: 1.2rem;
+}
+.list-footer{
+    list-style: none;
+    margin-left: -2.5rem;
+}
+.list-footer{
+    font-size: 1rem;
+    margin-top: 0.6rem;
+}
+.logo-end {
+    margin-top: 0rem;
+    background-color:#0f1111; 
+    align-items: center;
+    
+}
+
+.logo-end img {
+    width: 120px;
+    height: 80%;
+    background-color:#0f1111;
+    
+}
+
+.logo-end-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* footer ends */

@@ -1,0 +1,56 @@
+font-awesome cdn      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+font-family   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Rubik+Microbe&display=swap');
+footer list
+<div class="footer">
+    <div class="info-footer">
+        <h1 class="footer-head">
+            Get to know us
+        </h1>
+        <ol class="list-footer">
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+        </ol>
+    </div>
+    <div class="info-footer">
+        <h1 class="footer-head">
+            Connect With Us
+        </h1>
+        <ol class="list-footer">
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </ol>
+    </div>
+
+    <div class="info-footer">
+        <h1 class="footer-head">
+            Make Money with us
+        </h1>
+        <ol class="list-footer">
+            <li>Sell On Amazon</li>
+            <li>Sell Under Amazon Accelerator</li>
+            <li>Product and Build your brand</li>
+            <li>Amazon Global Selling</li>
+            <li>Become an Affiliate</li>
+            <li>Fulfilment by Amazon</li>
+            <li>Advertise Your Products</li>
+            <li> Amazon Pay on Merchants</li>
+        </ol>
+    </div>
+
+    <div class="info-footer">
+        <h1 class="footer-head">
+            Let Us Help You
+        </h1>
+        <ol class="list-footer">
+            <li>Covid-19 and Amazon</li>
+            <li>Your Account</li>
+            <li>Returns Centre</li>
+            <li>100% Purchase Protection</li>
+            <li>Amazon App Download</li>
+            <li>Help</li>
+        </ol>
+    </div>
+</div>
